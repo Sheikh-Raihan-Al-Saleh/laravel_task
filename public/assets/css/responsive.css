@@ -1,0 +1,1698 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* header------------------------ */
+  .header .row .col .logo{
+    padding-left: 5px;
+  }
+  .header .row .col .nev ul li a{
+    font-size: 17px;
+  }
+  .header .row .col.right .header-btn{
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  /* Slider---------------------------- */
+  .slider .slider-content{
+    width: 800px;
+  }
+  .slider .slider-content h3{
+    font-size: 40px;
+  
+  }
+  .slider .slider-content p{
+    font-size: 16px;
+  }
+  .slider .slider-content a{
+    margin-top: 20px; 
+  }
+  /* About Section------------------------------- */
+  .about .about-content{
+    padding: 0 20px;
+  }
+  /* Service Section----------------------------------- */
+  .service .service-content{
+    padding: 0 20px;
+  }
+  .carousel button{
+    width: calc(100% / 7);
+  }
+  .service .service-content .main-service .main-service-body .card{
+    max-width: 200px;
+  }
+
+  /* Why interior---------------------- */
+  .whyinterior .whyinterior-content .whyinterior-body .card{
+    flex-basis: 250px;
+    max-width: 250px;
+    margin-bottom: 100px;
+  }
+/* Contact Section--------------------- */
+.contact .contact-content .contact-body .right{
+  flex: 1;
+  flex-basis: 50%;
+  background-color: var(--light-bg-color);
+  padding: 80px 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* ******************************************* */
+/* ******************************************* */
+/*------------ABOUT PAGE STYLE-----------------*/
+/* ******************************************* */
+/* ******************************************* */
+
+/* About Header---------------- */
+.about-team .about-team-content .left {
+  width: 58%;
+  padding: 80px 30px;
+}
+.about-team .about-team-content .left h1{
+  font-size: 35px;
+}
+/* About Work---------------------- */
+.about-work .about-work-content .left h1{
+  font-size: 35px;
+}
+/* ******************************************* */
+/* ******************************************* */
+/*------------SERVICE DETAILS PAGE STYLE-----------------*/
+/* ******************************************* */
+/* ******************************************* */
+
+/* Service details-------------- */
+.service-detailsl .service-details-content .service-details-body .left{
+  flex: 1;
+  flex-basis: 60%;
+  max-width: 60%;
+}
+.service-detailsl .service-details-content .service-details-body .right{
+  flex: 1;
+  flex-basis: 36%;
+  max-width: 36%;
+}
+/* ******************************************* */
+/*------------SERVICE DETAILS PAGE STYLE-------*/
+/* ******************************************* */
+.blog-section .blog-section-content .blog-section-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* gap: 2em; */
+  padding: 0 15px;
+  padding-top: 20px;
+}
+.blog-section .blog-section-content .blog-section-body .left{
+  justify-content: center;
+  flex-basis: 70%;
+  padding-right: 20px;
+}
+.blog-section .blog-section-content .blog-section-body .left .card{
+  max-width: 300px;
+}
+.blog-section .blog-section-content .blog-section-body .right{
+  flex: 1;
+  flex-basis: 30%;
+}
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* header------------------------ */
+  /* header------------------------ */
+  .header .row .col .logo{
+    padding-left: 5px;
+  }
+  .header .col.right{
+    display: none;
+  }
+  .header .row .col .nev ul li a{
+    font-size: 17px;
+  }
+
+  /* Slider---------------------------- */
+  .slider .slider-content{
+    width: 600px;
+  }
+  .slider .slider-content h3{
+    font-size: 30px;
+  
+  }
+  .slider .slider-content p{
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .slider .slider-content a{
+    margin-top: 20px; 
+  }
+  .effective-btn {
+    width: 260px;
+    font-size: 15px;
+  }
+
+  .effective-btn:hover i {
+    width: 260px;
+  }
+  
+  .effective-btn:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+    /* About Section------------------------------- */
+    .about .about-content{
+      padding: 0 20px;
+    }
+    .about .about-content .about-header h1{
+      font-size: 35px;
+    }
+    .about .about-content .about-header p{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .about .about-content .about-body .row{
+      flex-direction: column;
+      justify-content: center;
+      gap: 2em;
+    }
+    .about .about-content .about-body .row .col{
+      flex-basis: 100%;
+    }
+    .about .about-content .about-body .row .col img{
+      width: 100%;
+      height: auto;
+      position:unset;
+      top: auto;
+      left: 0;
+      transform: translateY(0);
+    }
+
+    /* Service section------------------ */
+    .service .service-content{
+      padding: 0 20px;
+    }
+    .service .service-content .service-header h1{
+      font-size: 30px;
+    }
+    .service .service-content .service-header p{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .service .service-content .service-body .service-catagory{
+      flex-direction: column;
+    }
+    .service .service-content .service-body .service-catagory .card{
+      flex-basis: 100%;
+      gap: 2em;
+    }
+    .service .service-content .service-body .service-catagory .card .col .details{
+      position: relative;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  /* Service Section----------------------------------- */
+  .service .service-content{
+    padding: 0 20px;
+  }
+  .carousel button{
+    width: calc(100% / 6);
+  }
+  .service .service-content .main-service .main-service-body .card{
+    max-width: 200px;
+  }
+  .service .service-content .design-idea .design-idea-body .row .card{
+    max-width: 300px;
+
+  }
+  
+  /* Why interior---------------------- */
+  .whyinterior .whyinterior-content .whyinterior-body .card{
+    flex-basis: 250px;
+    max-width: 250px;
+    margin-bottom: 100px;
+  }
+
+  /* Work Process------------- */
+  .work-way .work-way-content .work-way-header h1{
+    font-size: 30px;
+  }
+  .work-way .work-way-content .work-way-header p{
+    line-height: 25px;
+  }
+
+  /* Blog Section------ */
+  .blog .blog-content .blog-header h1{
+    font-size: 35px;
+  }
+
+  /* brand------------------- */
+  .brand .brand-content .brand-header h1{
+    font-size: 30px;
+  }
+
+  /* Feature Banner------------ */
+  .feature-banner .feature-banner-content .row h2{
+    font-size: 30px;
+  }
+  .feature-banner .feature-banner-content .row a{
+    font-size: 12px;
+  }
+
+  /* Contact Section--------------------- */
+  .contact .contact-content .contact-header h1{
+    font-size: 35px;
+  }
+  .contact .contact-content .contact-body .left img{
+    width: auto;
+    height: 100%;
+  }
+.contact .contact-content .contact-body .right{
+  flex: 1;
+  flex-basis: 50%;
+  background-color: var(--light-bg-color);
+  padding: 30px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.contact .contact-content .contact-body .right form h1{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  opacity: 80%;
+  margin-bottom: 10px;
+}
+.contact .contact-content .contact-body .right form button{
+  font-size: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+  width: auto;
+  border-radius: 5px;
+}
+  /* Footer---------------- */
+  .footer .footer-content .row{
+    justify-content: space-between;
+  }
+  .footer .footer-content .row .col{
+   flex: 1;
+   flex-basis: 200px;
+  }
+
+  /* ******************************************* */
+  /* ******************************************* */
+  /*------------ABOUT PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* About Header---------------- */
+  .about-team{
+    padding: 50px 0;
+  }
+  .about-team .about-team-content{
+    min-height: 500px;
+  }
+  .about-team .about-team-content .left {
+    width: 75%;
+    padding: 30px 20px;
+  }
+  .about-team .about-team-content .left h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .about-team .about-team-content .left p{
+    font-size: 16px;
+  }
+  .about-team .about-team-content .right{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    right: -24%;
+    transform: translateY(-50%);
+    background-color: #d7ffe7;
+    opacity: 100%;
+  }
+  .about-team .about-team-content .right img{
+    width: auto;
+    height: 100%;
+  }
+
+  /* About Work---------------- */
+  .about-work{
+    padding: 50px 0;
+    padding-top: 0;
+  }
+  .about-work .about-work-content{
+    min-height: 500px;
+  }
+  .about-work .about-work-content .left {
+    width: 100%;
+    padding: 30px 20px;
+    padding-left: 230px;
+    margin-right: auto;
+  }
+  .about-work .about-work-content .left h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .about-work .about-work-content .left p{
+    font-size: 16px;
+  }
+  .about-work .about-work-content .right{
+    width: 350px;
+    height: 350px;
+    left: -23%;
+    gap: .7em;
+    padding: 10px;
+  }
+  .about-work .about-work-content .right img{
+    width: 48%;
+    height: 48%;
+  }
+
+  /* Founder ----------------- */
+  .founder-header h1{
+    text-align: center;
+  }
+  .founder .founder-content{
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  .founder .founder-content .founder-left{
+    flex: 1;
+    flex-basis: 100%;
+    margin-left: 50px;
+  }
+  .founder .founder-content .founder-right{
+    flex: 1;
+    flex-basis: 100%;
+  }
+  /* Mission Vission----------------------- */
+  .company-details .company-details-content .company-details-body .company-details-left{
+    padding-right:20px;
+  }
+
+  /* ******************************************* */
+  /* ******************************************* */
+  /*------------SERVICE PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* Service Section-------------- */
+  .service-section .srvice-header .design-idea-header h1{
+    font-size: 30px;
+  }
+  .service-section .srvice-header .design-idea-header p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .service-section .service-section-content .card{
+    flex: 1;
+    flex-basis: 30%;
+    min-width: 300px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    border-radius: 10px;
+  }
+  .service-section .service-section-content .card .row.first-row{
+    width: 100%;
+    height: 300px;
+  }
+  /* ******************************************* */
+  /* ******************************************* */
+  /*------------SERVICE DETAILS PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* Service details-------------- */
+  .service-detailsl .service-details-content .service-details-header{
+    font-size: 11px;
+  }
+  .service-detailsl .service-details-content .service-details-body .left{
+    flex: 1;
+    flex-basis: 55%;
+    max-width: 55%;
+  }
+  .service-detailsl .service-details-content .service-details-body .right{
+    flex: 1;
+    flex-basis: 42%;
+    max-width: 42%;
+  }
+  .service-detailsl .service-details-content .service-details-body .left .image-group .image-card{
+    flex: 1;
+    flex-basis: 60px;
+    max-width: 60px;
+    height: 60px;
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+  }
+  .card-active{
+    border: 1px solid var(--primary-color) !important;
+  }
+  .service-detailsl .service-details-content .service-details-body .right form{
+    padding-top: 20px;
+    padding: 10px;
+  }
+  .service-detailsl .service-details-content .service-details-body .right form button{
+    font-size: 10px;
+  }
+  /* ******************************************* */
+  /*------------BLOG PAGE STYLE------------------*/
+  /* ******************************************* */
+  .blog-section .blog-section-content .blog-section-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    /* gap: 2em; */
+    padding: 0 15px;
+    padding-top: 20px;
+  }
+  .blog-section .blog-section-content .blog-section-body .left{
+    justify-content: start;
+    flex-basis: 50%;
+    padding-right: 20px;
+  }
+  .blog-section .blog-section-content .blog-section-body .left .card{
+    max-width: 410px;
+  }
+  .blog-section .blog-section-content .blog-section-body .right{
+    flex: 1;
+    flex-basis: 50%;
+    max-width: 300px;
+  }
+  /* ******************************************* */
+  /*------------BLOG DETAILS PAGE STYLE----------*/
+  /* ******************************************* */
+  .blog-details .blog-details-content .blog-details-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    gap: 2em;
+  }
+  .blog-details .blog-details-content .blog-details-body .blog-wrap-img{
+    flex: 1;
+    flex-basis: 50%;
+    max-width: 80%;
+    background-color: #00B2FF;
+  }
+  .blog-details .blog-details-content .blog-details-body .blog-wrap-img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* blog-feature-banner ------------*/
+  .blog-feature-banner .blog-feature-banner-content{
+    flex: 1;
+    flex-basis: 50%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    background-color: #E0DCD1;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row p{
+    font-size: 14px;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row .banner-btn{
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* header------------------------ */
+  /* header------------------------ */
+  .header .row .col .logo{
+    padding-left: 5px;
+  }
+  .header{
+    position: relative;
+  }
+  .header .col.right{
+    display: none;
+  }
+  .header .col.main-nev{
+    display: none;
+  }
+  /* Mobile Menu---------------------- */
+  .header .row .col.mobile-menu{
+    display: block;
+    text-align: right;
+  }
+  .header .row .col.mobile-menu span{
+    font-size: 35px;
+    line-height: 80px;
+    margin-right: 10px;
+    color: var(--white-color);
+  }
+
+  .header .mobile-nav{
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    right: -320px;
+    display: none;
+    text-align: right;
+    z-index: 2000;
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+    border: 1px solid #e5e8ec36;
+    border-top: 0;
+    border-bottom: 0;
+
+
+    transition: right 1s linear;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.3s;
+  }
+  .header .mobile-nav ul li{
+    padding: 15px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #e5e8ec36;
+  }
+  .header .mobile-nav .menu-logo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  /* Slider---------------------------- */
+  .slider{
+    height: 60vh;
+  }
+  .slider::after{
+    height: 60vh;
+  
+  }
+  .slider .slider-content{
+    position: relative;
+    top: 40%;
+  }
+  .slider .slider-content{
+    width: 550px;
+  }
+  .slider .slider-content h3{
+    font-size: 30px;
+  
+  }
+  .slider .slider-content p{
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .slider .slider-content a{
+    margin-top: 20px; 
+  }
+  .effective-btn {
+    width: 260px;
+    font-size: 15px;
+  }
+
+  .effective-btn:hover i {
+    width: 260px;
+  }
+  
+  .effective-btn:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+    /* About Section------------------------------- */
+    .about .about-content{
+      padding: 0 20px;
+    }
+    .about .about-content .about-header h1{
+      font-size: 35px;
+    }
+    .about .about-content .about-header p{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .about .about-content .about-body .row{
+      flex-direction: column;
+      justify-content: center;
+      gap: 2em;
+    }
+    .about .about-content .about-body .row .col{
+      flex-basis: 100%;
+    }
+    .about .about-content .about-body .row .col img{
+      width: 100%;
+      height: auto;
+      position:unset;
+      top: auto;
+      left: 0;
+      transform: translateY(0);
+    }
+    /* Service section------------------ */
+    .service .service-content{
+      padding: 0 20px;
+    }
+    .service .service-content .service-header h1{
+      font-size: 30px;
+    }
+    .service .service-content .service-header p{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .service .service-content .service-body .service-catagory{
+      flex-direction: column;
+    }
+    .service .service-content .service-body .service-catagory .card{
+      flex-basis: 100%;
+      gap: 2em;
+    }
+    .service .service-content .service-body .service-catagory .card .col .details{
+      position: relative;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  /* Service Section----------------------------------- */
+  .service .service-content{
+    padding: 0 20px;
+  }
+  .carousel button{
+    width: calc(100% / 3);
+  }
+  .service .service-content .main-service .main-service-body .card{
+    max-width: 300px;
+  }
+  .service .service-content .design-idea .design-idea-body .row .card{
+    max-width: 300px;
+
+  }
+  /* Why interior---------------------- */
+  .whyinterior .whyinterior-content .whyinterior-body .card{
+    flex-basis: 250px;
+    max-width: 250px;
+    margin-bottom: 100px;
+  }
+  .whyinterior .whyinterior-content .whyinterior-header h1{
+    font-size: 25px;
+  }
+    /* Work Process------------- */
+    .work-way .work-way-content .work-way-header h1{
+      font-size: 25px;
+    }
+    .work-way .work-way-content .work-way-header p{
+      line-height: 25px;
+    }
+    /* Blog Section------ */
+    .blog .blog-content .blog-header h1{
+      font-size: 30px;
+    }
+
+    /* brand------------------- */
+    .brand .brand-content .brand-header h1{
+      font-size: 30px;
+    }
+  /* Feature Banner------------ */
+  .feature-banner .feature-banner-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 50px;
+  }
+  .feature-banner .feature-banner-content .row h2{
+    font-size: 25px;
+  }
+  .feature-banner .feature-banner-content .row a{
+    font-size: 12px;
+  }
+    /* Contact Section--------------------- */
+    .contact .contact-content .contact-header h1{
+      font-size: 30px;
+    }
+    .contact .contact-content .contact-body .left img{
+      width: auto;
+      height: 100%;
+    }
+    .contact .contact-content .contact-body .left{
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 20px;
+    }
+  .contact .contact-content .contact-body .right{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+    padding: 30px 20px;
+  }
+  .contact .contact-content .contact-body .right form h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    opacity: 80%;
+    margin-bottom: 10px;
+  }
+  .contact .contact-content .contact-body .right form button{
+    font-size: 12px;
+    margin-top: 10px;
+    border-radius: 0;
+    width: auto;
+    border-radius: 5px;
+  }
+  /* Footer---------------- */
+  .footer .footer-content .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 0 20px;
+  }
+  .footer .footer-content .row .col{
+   flex: 1;
+   flex-basis: 200px;
+  }
+
+  
+  /* ******************************************* */
+  /* ******************************************* */
+  /*------------ABOUT PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* About Header---------------- */
+  .about-team{
+    min-height: 120vh;
+  }
+  .about-team .about-team-content{
+    margin-top: 200px;
+    width: 100%;
+    min-height: 500px;
+  }
+  .about-team .about-team-content .left {
+    width: 100%;
+    padding-top: 160px;
+    padding-bottom: 20px;
+  }
+  .about-team .about-team-content .left h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .about-team .about-team-content .left p{
+    font-size: 16px;
+  }
+  .about-team .about-team-content .right{
+    width: 400px;
+    height: 300px;
+    position:absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d7ffe7;
+    opacity: 100%;
+  }
+  .about-team .about-team-content .right img{
+    width: 100%;
+    height: 100%;
+  }
+  .company-details .company-details-content .company-details-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .company-details .company-details-content .company-details-body .company-details-left{
+    padding-right: 0;
+  }
+  .company-details .company-details-content .company-details-body .company-details-left h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* About work---------------- */
+  .about-work{
+    min-height: 120vh;
+  }
+  .about-work .about-work-content{
+    margin-top: 200px;
+    width: 100%;
+    min-height: 500px;
+    top: 0;
+    right: 0;
+  }
+  .about-work .about-work-content .left {
+    width: 100%;
+    padding-top: 220px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .about-work .about-work-content .left h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .about-work .about-work-content .left p{
+    font-size: 16px;
+  }
+  .about-work .about-work-content .right{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d7ffe7;
+    opacity: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  .about-work .about-work-content .right img{
+    width: 47%;
+    height: 47%;
+  }
+  /* Founder ----------------- */
+  .founder-header h1{
+    text-align: center;
+  }
+  .founder .founder-content{
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  .founder .founder-content .founder-left{
+    flex: 1;
+    flex-basis: 100%;
+    margin-left: 50px;
+  }
+  .founder .founder-content .founder-right{
+    flex: 1;
+    flex-basis: 100%;
+  }
+  /* ******************************************* */
+  /* ******************************************* */
+  /*------------SERVICE PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* Service Section-------------- */
+  .service-section .srvice-header .design-idea-header h1{
+    font-size: 30px;
+  }
+  .service-section .srvice-header .design-idea-header p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .service-section .service-section-content .card{
+    flex: 1;
+    flex-basis: 30%;
+    min-width: 300px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    border-radius: 10px;
+  }
+    /* ******************************************* */
+  /* ******************************************* */
+  /*------------SERVICE DETAILS PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* Service details-------------- */
+  .service-detailsl .service-details-content .service-details-header{
+    font-size: 12px;
+  }
+  .service-detailsl .service-details-content .service-details-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  .service-detailsl .service-details-content .service-details-body .left{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .service-detailsl .service-details-content .service-details-body .right{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  .service-detailsl .service-details-content .service-details-body .left .image-group .image-card{
+    flex: 1;
+    flex-basis: 60px;
+    max-width: 60px;
+    height: 60px;
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+  }
+  .card-active{
+    border: 1px solid var(--primary-color) !important;
+  }
+  .service-detailsl .service-details-content .service-details-body .right form{
+    padding: 40px;
+  }
+  .service-detailsl .service-details-content .service-details-body .right form button{
+    font-size: 12px;
+  }
+  /* ******************************************* */
+  /*------------SERVICE DETAILS PAGE STYLE-------*/
+  /* ******************************************* */
+  .blog-section .blog-section-content .blog-section-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    /* gap: .5em; */
+    padding: 0 15px;
+    padding-top: 20px;
+  }
+  .blog-section .blog-section-content .blog-section-body .left{
+    justify-content: start;
+    flex-basis: 50%;
+    flex-direction: column;
+  }
+  .blog-section .blog-section-content .blog-section-body .left .card{
+    max-width: 95%;
+  }
+  .blog-section .blog-section-content .blog-section-body .right{
+    flex: 1;
+    flex-basis: 50%;
+    max-width: 270px;
+  }
+  /* ******************************************* */
+  /*------------BLOG DETAILS PAGE STYLE----------*/
+  /* ******************************************* */
+  .blog-details{
+    padding: 10px 20px;
+  }
+  .blog-details .blog-details-content .blog-details-header h1{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog-details .blog-details-content .blog-details-body{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    gap: 1em;
+  }
+  .blog-details .blog-details-content .blog-details-body .blog-wrap-img{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+    background-color: #00B2FF;
+  }
+  .blog-details .blog-details-content .blog-details-body .blog-wrap-img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* blog-feature-banner ------------*/
+  .blog-feature-banner .blog-feature-banner-content{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+    background-color: #E0DCD1;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row h2{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row p{
+    font-size: 14px;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row .banner-btn{
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+/* header------------------------ */
+.header .row .col .logo{
+  padding-left: 5px;
+}
+.header{
+  position: relative;
+}
+.header .row .col.left{
+  flex-basis: 200px;
+}
+.header mobile-nav{
+  width: 50px;
+}
+.header .row .col.mobile-menu{
+  width: 50px;
+}
+.header .row .col .logo{
+  line-height: 80px;
+}
+.header .row .col .logo img{
+  width: 200px;
+  height: auto;
+}
+.header .col.right{
+  display: none;
+}
+.header .col.main-nev{
+  display: none;
+}
+
+/* Request Form------------------------------------ */
+.request-form{
+  width: 90%;
+  height: auto;
+  padding: 15px;
+}
+.request-form .request-form-body form button{
+  font-size: 12px;
+}
+  /* Mobile Menu---------------------- */
+  .header .row .col.mobile-menu{
+    display: block;
+    text-align: right;
+  }
+  .header .row .col.mobile-menu span{
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 10px;
+    color: var(--white-color);
+  }
+
+  .header .mobile-nav{
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    right: -320px;
+    display: none;
+    text-align: right;
+    z-index: 2000;
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+    border: 1px solid #e5e8ec36;
+    border-top: 0;
+    border-bottom: 0;
+
+
+    transition: right 1s linear;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.3s;
+  }
+  .header .mobile-nav ul li{
+    padding: 15px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #e5e8ec36;
+  }
+  .header .mobile-nav .menu-logo{
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+  }
+  /* Slider---------------------------- */
+  .slider{
+    height: 60vh;
+  }
+  .slider::after{
+    height: 60vh;
+  
+  }
+  .slider .slider-content{
+    position: relative;
+    top: 35%;
+  }
+  .slider .slider-content{
+    width: 90%;
+  }
+  .slider .slider-content h3{
+    font-size: 28px; 
+  }
+  .slider .slider-content p{
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .slider .slider-content a{
+    margin-top: 20px; 
+  }
+  .effective-btn {
+    width: 260px;
+    font-size: 15px;
+  }
+
+  .effective-btn:hover i {
+    width: 260px;
+  }
+  
+  .effective-btn:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  /* Project Work Section------------- */
+  .project-work .project-work-content .card{
+    flex-basis: 200px;
+    max-width: 300px;
+  }
+    /* About Section------------------------------- */
+    .about .about-content{
+      padding: 0 5px;
+    }
+    .about .about-content .about-header h1{
+      font-size: 30px;
+    }
+    .about .about-content .about-header p{
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .about .about-content .about-body .row{
+      flex-direction: column;
+      justify-content: center;
+      gap: 2em;
+    }
+    .about .about-content .about-body .row .col{
+      flex-basis: 100%;
+    }
+    .about .about-content .about-body .row .col img{
+      width: 100%;
+      height: auto;
+      position:unset;
+      top: auto;
+      left: 0;
+      transform: translateY(0);
+    }
+    .about .about-content .about-body .row .col h3{
+      font-size: 22px;
+    }
+    .about .about-content .about-body .row .col p{
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .about .about-content .about-body .row .col a .fa-arrow-right-long{
+      font-size: 18px;
+      padding-left: 10px;
+    }
+    /* Service section------------------ */
+    .service .service-content{
+      padding: 0 20px;
+    }
+    .service .service-content .service-header h1{
+      font-size: 25px;
+    }
+    .service .service-content .service-header p{
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .service .service-content .service-body .service-catagory{
+      flex-direction: column;
+    }
+    .service .service-content .service-body .service-catagory .card{
+      flex-direction: column;
+      flex-basis: 100%;
+      gap: 1em;
+    }
+    .service .service-content .service-body .service-catagory .card .col{
+      flex-basis: 100%;
+    }
+    .service .service-content .service-body .service-catagory .card .col.number{
+      order: 1;
+    }
+    .service .service-content .service-body .service-catagory .card .col .details{
+      position:unset;
+      top: auto;
+      left: auto;
+      transform: translateY(0);
+    }
+    .service .service-content .service-body .service-catagory .card .col img{
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    /* Service Section----------------------------------- */
+    .service .service-content{
+      padding: 0 20px;
+    }
+    .carousel button{
+      width: calc(100% / 2);
+    }
+    .service .service-content .main-service .main-service-body .card{
+      max-width: 350px;
+    }
+    .service .service-content .main-service .main-service-header h1{
+      font-size: 22px;
+      line-height: 28px;
+    }
+    .service .service-content .main-service .main-service-header p{
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .service .service-content .design-idea .design-idea-body .row .card{
+      max-width: 340px;
+  
+    }
+    .service .service-content .design-idea .design-idea-header h1{
+      font-size: 25px;
+      line-height: 30px;
+    }
+    /* Why interior---------------------- */
+    .whyinterior .whyinterior-content .whyinterior-body .card{
+      flex-basis: 250px;
+      max-width: 250px;
+      margin-bottom: 100px;
+    }
+    .whyinterior .whyinterior-content .whyinterior-header h1{
+      font-size: 25px;
+    }
+    .whyinterior .whyinterior-content .whyinterior-header p{
+      line-height: 25px;
+    }
+    /* Work Process----------- */
+    .work-way .work-way-content .work-way-body .card{
+      flex-basis: 200px;
+      max-width: 300px;
+    }
+    .work-way .work-way-content .work-way-body .card img{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      
+      padding-bottom: 10px;
+    }
+    .work-way .work-way-content .work-way-body .card.first::after{
+      content: "";
+      width: 75%;
+      height: 5px;
+      position: absolute;
+      background-color: var(--white-color);
+      top: -5px;
+      left: 25%;
+      z-index: 1;
+    }
+    .work-way .work-way-content .work-way-header h1{
+      font-size: 25px;
+    }
+    .work-way .work-way-content .work-way-header p{
+      line-height: 25px;
+    }
+    /* Blog Section------ */
+    .blog .blog-content .blog-header h1{
+      font-size: 25px;
+    }
+    /* brand------------------- */
+    .brand .brand-content .brand-header h1{
+      font-size: 25px;
+    }
+    /* Contact Section--------------------- */
+    .contact{
+      padding: 100px 5px;
+    }
+    .contact .contact-content .contact-header h1{
+      font-size: 25px;
+    }
+    .contact .contact-content .contact-body .left img{
+      border-radius: 10px;
+      width: auto;
+      height: 100%;
+    }
+    .contact .contact-content .contact-body .left{
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 20px;
+    }
+  .contact .contact-content .contact-body .right{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+    padding: 30px 20px;
+  }
+  .contact .contact-content .contact-body .right form{
+    padding: 30px 20px;
+  }
+  .contact .contact-content .contact-body .right form h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    opacity: 80%;
+    margin-bottom: 10px;
+  }
+  .contact .contact-content .contact-body .right form button{
+    font-size: 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    width: auto;
+    border-radius: 5px;
+  }
+
+  /* Feature Banner------------ */
+  .feature-banner .feature-banner-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 50px;
+  }
+  .feature-banner .feature-banner-content .row h2{
+    font-size: 25px;
+  }
+  .feature-banner .feature-banner-content .row a{
+    font-size: 12px;
+  }
+  /* Footer---- */
+  .footer .footer-content{
+    padding: 50px 0;
+  }
+  /* Footer---------------- */
+  .footer .footer-content .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 0 20px;
+  }
+  .footer .footer-content .row .col{
+   flex: 1;
+   flex-basis: 200px;
+  }
+
+    /* ******************************************* */
+  /* ******************************************* */
+  /*------------ABOUT PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* About Header---------------- */
+  .about-team{
+    min-height: 120vh;
+  }
+  .about-team .about-team-content{
+    margin-top: 120px;
+    width: 100%;
+    min-height: 500px;
+  }
+  .about-team .about-team-content .left {
+    width: 100%;
+    padding-top: 160px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-team .about-team-content .left h1{
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .about-team .about-team-content .left p{
+    font-size: 16px;
+  }
+  .about-team .about-team-content .right{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d7ffe7;
+    opacity: 100%;
+  }
+  .about-team .about-team-content .right img{
+    width: 100%;
+    height: 100%;
+  }
+    /* About work---------------- */
+    .about-work{
+      min-height: 120vh;
+    }
+    .about-work .about-work-content{
+      margin-top: 110px;
+      width: 100%;
+      min-height: 500px;
+      top: 0;
+      right: 0;
+    }
+    .about-work .about-work-content .left {
+      width: 100%;
+      padding-top: 200px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .about-work .about-work-content .left h1{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .about-work .about-work-content .left p{
+      font-size: 16px;
+    }
+    .about-work .about-work-content .right{
+      width: 300px;
+      height: 300px;
+      position:absolute;
+      top: -20%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #d7ffe7;
+      opacity: 100%;
+      align-content: center;
+      justify-content: center;
+    }
+    .about-work .about-work-content .right img{
+      width: 47%;
+      height: 47%;
+    }
+    /* Founder ----------------- */
+    .founder-header h1{
+      text-align: center;
+    }
+    .founder .founder-content{
+      flex-direction: column;
+      align-items: center;
+      gap: 2em;
+    }
+    .founder .founder-content .founder-left{
+      flex: 1;
+      flex-basis: 100%;
+      margin-left: 50px;
+    }
+    .founder .founder-content .founder-right{
+      flex: 1;
+      flex-basis: 100%;
+    }
+    /* Mission Vission----------- */
+    .company-details .company-details-content .company-details-body{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+    }
+    .company-details .company-details-content .company-details-body .company-details-left{
+      padding-right: 0;
+    }
+    .company-details .company-details-content .company-details-body .company-details-left h1{
+      font-size: 30px;
+      line-height: 40px;
+    }
+  /* ******************************************* */
+  /* ******************************************* */
+  /*------------SERVICE PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* Service Section-------------- */
+  .service-section .srvice-header .design-idea-header h1{
+    font-size: 30px;
+  }
+  .service-section .srvice-header .design-idea-header p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .service-section .service-section-content .card{
+    flex: 1;
+    flex-basis: 30%;
+    min-width: 300px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    border-radius: 10px;
+  }
+      /* ******************************************* */
+  /* ******************************************* */
+  /*------------SERVICE DETAILS PAGE STYLE-----------------*/
+  /* ******************************************* */
+  /* ******************************************* */
+
+  /* Service details-------------- */
+  .service-detailsl{
+    padding: 20px 20px;
+  }
+  .service-detailsl .service-details-content .service-details-header{
+    font-size: 10px;
+  }
+  .service-detailsl .service-details-content .service-details-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  .service-detailsl .service-details-content .service-details-body .left{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .service-detailsl .service-details-content .service-details-body .right{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  .service-detailsl .service-details-content .service-details-body .left .image-group .image-card{
+    flex: 1;
+    flex-basis: 60px;
+    max-width: 60px;
+    height: 60px;
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+  }
+  .card-active{
+    border: 1px solid var(--primary-color) !important;
+  }
+  .service-detailsl .service-details-content .service-details-body .right form{
+    padding: 20px;
+  }
+  .service-detailsl .service-details-content .service-details-body .right form button{
+    font-size: 12px;
+  }
+
+  /* Related Design---------------- */
+  .related-design .related-design-content .related-design-body .card{
+    flex: 1;
+    flex-basis: 250px;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    cursor: pointer;
+    transition: .3s;
+  }
+  /* Blog Details Page---- */
+  .blog-section .blog-section-content .blog-section-header h1{
+    font-size: 25px;
+  }
+  /* ******************************************* */
+  /*------------SERVICE DETAILS PAGE STYLE-------*/
+  /* ******************************************* */
+  .blog-section .blog-section-content .blog-section-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    gap: 2em;
+    padding: 0 15px;
+    padding-top: 20px;
+  }
+  .blog-section .blog-section-content .blog-section-body .left{
+    justify-content: center;
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+  .blog-section .blog-section-content .blog-section-body .left .card{
+    max-width: 400px;
+  }
+  .blog-section .blog-section-content .blog-section-body .right{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 400px;
+  }
+  /* ******************************************* */
+  /*------------BLOG DETAILS PAGE STYLE----------*/
+  /* ******************************************* */
+  .blog-details{
+    padding: 10px 20px;
+  }
+  .blog-details .blog-details-content .blog-details-header h1{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog-details .blog-details-content .blog-details-body{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    gap: 1em;
+  }
+  .blog-details .blog-details-content .blog-details-body .blog-wrap-img{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+    background-color: #00B2FF;
+  }
+  .blog-details .blog-details-content .blog-details-body .blog-wrap-img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* blog-feature-banner ------------*/
+  .blog-feature-banner .blog-feature-banner-content{
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+  }
+  
+  .blog-feature-banner .blog-feature-banner-content .row h2{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row p{
+    font-size: 14px;
+  }
+  .blog-feature-banner .blog-feature-banner-content .row .banner-btn{
+    margin-bottom: 15px;
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+    /* Why interior---------------------- */
+    .whyinterior .whyinterior-content .whyinterior-body .card{
+      border-left: none;
+      border-bottom: 1px solid var(--border-color);
+      padding: 50px 0;
+      margin-bottom: 10px;
+    }
+    .whyinterior .whyinterior-content .whyinterior-body .card:last-child{
+      border-bottom: none;
+    }
+}
